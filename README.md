@@ -4,7 +4,9 @@ This script retrieves a list of URLs from the Wayback CDX API for specified doma
 
 ## Installation
 ```
-git clone 
+git clone https://github.com/dap-ware/arkhive.git
+cd arkhive
+chmod +x arkhive.sh
 ```
 
 ## Usage
