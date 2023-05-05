@@ -1,4 +1,3 @@
-```
 # Wayback CDX URL Retriever
 
 This script retrieves a list of URLs from the Wayback CDX API for specified domains. Domains can be provided as arguments, via standard input (STDIN), or using the -d/--domain or -dL/--domain-list options. The script also supports filtering URLs based on file extensions and specified strings.
@@ -43,4 +42,3 @@ Examples:
 - The script includes a sleep interval between API requests to avoid rate limiting.
 - The blacklist option allows you to exclude URLs with specific file extensions.
 - The grep option allows you to filter URLs based on the presence of a specified string.
-```
