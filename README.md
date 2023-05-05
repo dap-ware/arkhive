@@ -24,17 +24,17 @@ Options:
 
 Examples:
   # Retrieve URLs for example.com and output to the terminal
-  wayback_cdx_retriever.sh -d example.com
+  arkhive.sh -d example.com
 
   # Retrieve URLs for domains listed in domains.txt and output to urls.txt
-  wayback_cdx_retriever.sh -dL domains.txt -o urls.txt
+  arkhive.sh -dL domains.txt -o urls.txt
 
   # Retrieve URLs for domains provided via STDIN and output to the terminal
-  cat domains.txt | wayback_cdx_retriever.sh
+  cat domains.txt | arkhive.sh
 
   # Retrieve URLs for example.com, blacklist URLs with jpg, tif, and gif extensions,
   # and grep for 'login' in the URLs
-  wayback_cdx_retriever.sh -d example.com -b jpg,tif,gif -g login
+  arkhive.sh -d example.com -b jpg,tif,gif -g login
 ```
 
 ## Notes
