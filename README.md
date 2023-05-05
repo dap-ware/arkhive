@@ -11,7 +11,7 @@ chmod +x arkhive.sh
 
 ## Usage
 
-```bash
+```
 Usage: arkhive.sh [OPTIONS] [DOMAINS...]
 
 Retrieve a list of URLs from the Wayback CDX API for specified domains.
