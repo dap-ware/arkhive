@@ -3,7 +3,7 @@
 This script retrieves a list of URLs from the Wayback CDX API for specified domains. Domains can be provided as arguments, via standard input (STDIN), or using the -d/--domain or -dL/--domain-list options. The script also supports filtering URLs based on file extensions and specified strings.
 
 ## Installation
-```
+```bash
 git clone https://github.com/dap-ware/arkhive.git
 cd arkhive
 chmod +x arkhive.sh
@@ -11,7 +11,7 @@ chmod +x arkhive.sh
 
 ## Usage
 
-```
+```bash
 Usage: arkhive.sh [OPTIONS] [DOMAINS...]
 
 Retrieve a list of URLs from the Wayback CDX API for specified domains.
