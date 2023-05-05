@@ -1,11 +1,11 @@
-# Wayback CDX URL Retriever
+# Arkhive
 
 This script retrieves a list of URLs from the Wayback CDX API for specified domains. Domains can be provided as arguments, via standard input (STDIN), or using the -d/--domain or -dL/--domain-list options. The script also supports filtering URLs based on file extensions and specified strings.
 
 ## Usage
 
 ```
-Usage: wayback_cdx_retriever.sh [OPTIONS] [DOMAINS...]
+Usage: arkhive.sh [OPTIONS] [DOMAINS...]
 
 Retrieve a list of URLs from the Wayback CDX API for specified domains.
 Domains can be provided as arguments, via standard input (STDIN),
